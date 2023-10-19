@@ -1,12 +1,13 @@
-import React from 'react'
+import React, { useState } from "react";
 
-const Search = () => {
+const Search = ({search}) => {
+  
   return (
     <div className="search">
-        <input type='text'></input>
-        <button>Search</button>
+      <input type="text"></input>
+      <button onClick={search}>Search</button>
     </div>
-  )
-}
+  );
+};
 
-export default Search
+export default Search;
