@@ -19,7 +19,7 @@ ul {
 }
 
 nav {
-  background-color: rgb(46, 134, 132);
+  background-color: rgb(61, 169, 167);
   line-height: 7rem;
 }
 
@@ -34,12 +34,13 @@ li {
 li a {
   font-size: 1.5rem;
   color: #fff;
-  background-color: #494949;
+  background-color: #3f6068;
   padding: 1rem 1.2rem;
   border-radius: 50%;
 }
-li a:hover {
-  background-color: rgb(174, 174, 174);
+li:hover {
+  transition: all 0.1s ease;
+  transform: scale(1.2);
 }
 
 .search {
@@ -53,9 +54,12 @@ input,
 button {
   font-size: 1.5rem;
   padding: 0.25rem 0.5rem;
-  margin-right: 10px;
-  border: 3px solid #555555;
+  margin-right: -5px;
+  border: none;
   border-radius: 10px;
+  outline-style: none;
+  caret-color: #3f6068;
+  color: #3f6068;
 }
 
 button {
@@ -81,6 +85,7 @@ button:hover {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
+  color: #333;
 }
 .pictures .picture {
   padding: 1rem;
@@ -99,4 +104,20 @@ button:hover {
 }
 .pictures .picture .imageContainer img:hover {
   transform: scale(1.25);
+}
+.pictures .picture a {
+  color: rgb(20, 122, 118);
+}
+
+.about {
+  padding: 1.5rem;
+}
+.about h1 {
+  color: #5e3131;
+  text-align: center;
+  margin: 1rem 0rem;
+}
+.about h3 {
+  padding: 0 30px;
+  color: darkslategrey;
 }/*# sourceMappingURL=style.css.map */

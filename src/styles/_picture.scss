@@ -3,6 +3,7 @@
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+    color: #333;
 
     .picture{
         padding: 1rem;
@@ -20,6 +21,9 @@
                     transform: scale(1.25);
                 }
             }
+        }
+        a{
+            color: rgb(20, 122, 118);
         }
     }
 }

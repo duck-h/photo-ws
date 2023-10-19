@@ -7,7 +7,7 @@ const Picture = ({data}) => {
       <div className="imageContainer">
         <img src={data.src.large} alt=""></img>
       </div>
-      <p>Download Image: <a target="_blank" href={data.src.large}>Click Here</a></p>
+      <p>Download Image: <a target="_blank" rel="noreferrer noopener" href={data.src.large}>Click Here</a></p>
     </div>
   );
 };
